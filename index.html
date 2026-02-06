@@ -2,39 +2,25 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>TECH NOTES ULTIMATE</title>
+<title>TECH NOTES FIREBASE</title>
 <link rel="stylesheet" href="style.css">
-<link rel="manifest" href="manifest.json">
 </head>
 
 <body>
 
-<div id="login">
-<h2>🔐 LOGIN</h2>
-<input id="user" placeholder="user">
-<input id="pass" type="password" placeholder="password">
-<button onclick="loginUser()">LOGIN</button>
-</div>
+<h2>🔥 TECH NOTES CLOUD</h2>
 
-<div id="app" class="hidden">
+<input id="user" placeholder="username">
+<button onclick="login()">LOGIN</button>
 
-<h1>⚙ TECH NOTES ULTIMATE</h1>
-
-<textarea id="note" placeholder="Write note..."></textarea>
-<input id="tag" placeholder="tag">
-
+<textarea id="note"></textarea>
 <button onclick="add()">ADD</button>
 
-<input id="search" onkeyup="render()" placeholder="search">
-<input id="filter" onkeyup="render()" placeholder="filter tag">
-
-<button onclick="exportJSON()">EXPORT</button>
-<input type="file" onchange="importJSON(this)">
+<input id="search" placeholder="search" onkeyup="render()">
 
 <ul id="list"></ul>
 
-</div>
+<script type="module" src="app.js"></script>
 
-<script src="app.js"></script>
 </body>
 </html>
