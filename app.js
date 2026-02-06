@@ -53,7 +53,7 @@ let notes = [];
 
 /* ================= PAGE LOCK ================= */
 
-const PAGE_PASSWORD = "123456";   // đổi mật khẩu tại đây
+const PAGE_PASSWORD = "456789";   // đổi mật khẩu tại đây
 
 if(!sessionStorage.getItem("page_unlocked")){
 
@@ -215,4 +215,5 @@ a.download = "tech_notes.txt";
 a.click();
 
 });
+
 
