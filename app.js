@@ -16,62 +16,79 @@ doc
 } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore.js";
 
 const firebaseConfig = {
-    apiKey: "AIzaSyDH8Hif2CouVBTh3QZz0rEaovY5B6YNP10",
-    authDomain: "thoinote.firebaseapp.com",
-    projectId: "thoinote",
-    storageBucket: "thoinote.firebasestorage.app",
-    messagingSenderId: "205870538236",
-    appId: "1:205870538236:web:cd33f4a7c07bcf36f2e679"
-  };
+apiKey: "AIzaSyDH8Hif2CouVBTh3QZz0rEaovY5B6YNP10",
+authDomain: "thoinote.firebaseapp.com",
+projectId: "thoinote",
+storageBucket: "thoinote.firebasestorage.app",
+messagingSenderId: "205870538236",
+appId: "1:205870538236:web:cd33f4a7c07bcf36f2e679"
+};
 
-const app = initializeApp(firebaseConfig);
-const auth = getAuth(app);
-const db = getFirestore(app);
+const fbApp = initializeApp(firebaseConfig);
+const firebaseAuth = getAuth(fbApp);
+const db = getFirestore(fbApp);
+
+// DOM
+const authBox = document.getElementById("auth");
+const appBox = document.getElementById("app");
+const emailInput = document.getElementById("email");
+const passwordInput = document.getElementById("password");
+const noteInput = document.getElementById("note");
+const list = document.getElementById("list");
 
 let USER=null;
 let notes=[];
 
-window.login=async()=>{
+// LOGIN
+window.login = async ()=>{
 
 try{
-await signInWithEmailAndPassword(auth,email.value,password.value);
+await signInWithEmailAndPassword(firebaseAuth,emailInput.value,passwordInput.value);
 }catch{
-await createUserWithEmailAndPassword(auth,email.value,password.value);
+await createUserWithEmailAndPassword(firebaseAuth,emailInput.value,passwordInput.value);
 }
 
 };
 
-onAuthStateChanged(auth,u=>{
+// SESSION
+onAuthStateChanged(firebaseAuth,u=>{
 if(u){
 USER=u.uid;
-auth.style.display="none";
+authBox.style.display="none";
 appBox.style.display="block";
 load();
 }
 });
 
+// LOAD NOTES
 async function load(){
 notes=[];
-const q=await getDocs(collection(db,"notes",USER,"items"));
+const q = await getDocs(collection(db,"notes",USER,"items"));
 q.forEach(d=>notes.push({id:d.id,text:d.data().text}));
 render();
 }
 
-window.add=async()=>{
+// ADD NOTE
+window.add = async ()=>{
+if(!noteInput.value) return;
+
 await addDoc(collection(db,"notes",USER,"items"),{
-text:note.value,
+text:noteInput.value,
 time:Date.now()
 });
-note.value="";
-load();
-}
 
-window.del=async(id)=>{
+noteInput.value="";
+load();
+};
+
+// DELETE
+window.del = async(id)=>{
 await deleteDoc(doc(db,"notes",USER,"items",id));
 load();
-}
+};
 
-window.render=()=>{
+// RENDER
+function render(){
 list.innerHTML="";
 notes.forEach((n,i)=>{
 list.innerHTML+=`
@@ -80,7 +97,3 @@ list.innerHTML+=`
 </li>`;
 });
 }
-
-const auth=document.getElementById("auth");
-const appBox=document.getElementById("app");
-const list=document.getElementById("list");
