@@ -163,6 +163,32 @@ a.download = "tech_notes.txt";
 a.click();
 };
 
+globalThis.exportTXT = ()=>{
+
+if(notes.length===0){
+alert("No notes to export!");
+return;
+}
+
+let content = "RETRO TECH NOTES\n";
+content += "====================\n\n";
+
+notes.forEach((n,i)=>{
+content += `${i+1}. ${n.text}\n`;
+if(n.time) content += `   Time: ${n.time}\n`;
+content += "\n";
+});
+
+content += "====================\n";
+content += "Exported: "+new Date().toLocaleString();
+
+let blob = new Blob([content],{type:"text/plain"});
+let a = document.createElement("a");
+a.href = URL.createObjectURL(blob);
+a.download = "tech_notes.txt";
+a.click();
+};
+
 
 
 
