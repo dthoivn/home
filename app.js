@@ -5,13 +5,32 @@ dev:"dev"
 
 let session=null;
 
-function login(){
-if(USERS[user.value]===pass.value){
-session=user.value;
-login.style.display="none";
-app.classList.remove("hidden");
+const loginBox=document.getElementById("login");
+const appBox=document.getElementById("app");
+const userInput=document.getElementById("user");
+const passInput=document.getElementById("pass");
+
+const note=document.getElementById("note");
+const tag=document.getElementById("tag");
+const search=document.getElementById("search");
+const filter=document.getElementById("filter");
+const list=document.getElementById("list");
+
+function loginUser(){
+
+if(USERS[userInput.value]===passInput.value){
+
+session=userInput.value;
+
+loginBox.style.display="none";
+appBox.classList.remove("hidden");
+
 load();
-}else alert("Access denied");
+
+}else{
+alert("Sai username hoặc password");
+}
+
 }
 
 function enc(t){return btoa(t)}
@@ -36,25 +55,31 @@ return t.replace(/\*\*(.*?)\*\*/g,"<b>$1</b>")
 
 function add(){
 if(!note.value) return;
+
 notes.push({
 text:enc(note.value),
 tag:tag.value,
 time:new Date().toLocaleString()
 });
-note.value="";tag.value="";
-save();render();
+
+note.value="";
+tag.value="";
+save();
+render();
 }
 
 function del(i){
 notes.splice(i,1);
-save();render();
+save();
+render();
 }
 
 function edit(i){
 let t=prompt("Edit",dec(notes[i].text));
 if(t){
 notes[i].text=enc(t);
-save();render();
+save();
+render();
 }
 }
 
@@ -65,9 +90,10 @@ let f=filter.value.toLowerCase();
 
 notes.forEach((n,i)=>{
 let txt=dec(n.text);
-if(txt.toLowerCase().includes(s)&&n.tag.includes(f)){
+
+if(txt.toLowerCase().includes(s)&&n.tag.toLowerCase().includes(f)){
 list.innerHTML+=`
-<li draggable=true>
+<li>
 <b>${i+1}. ${md(txt)}</b><br>
 #${n.tag}<br>
 <small>${n.time}</small><br>
@@ -86,7 +112,8 @@ function importJSON(f){
 let r=new FileReader();
 r.onload=e=>{
 notes=JSON.parse(e.target.result);
-save();render();
+save();
+render();
 }
 r.readAsText(f.files[0]);
 }
