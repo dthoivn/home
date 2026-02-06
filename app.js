@@ -1,127 +1,59 @@
-const USERS={
-admin:"1234",
-dev:"dev"
-};
+import { initializeApp } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js";
+import { getFirestore, collection, addDoc, getDocs, deleteDoc, doc } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore.js";
 
-let session=null;
+const firebaseConfig = {
+    apiKey: "AIzaSyDH8Hif2CouVBTh3QZz0rEaovY5B6YNP10",
+    authDomain: "thoinote.firebaseapp.com",
+    projectId: "thoinote",
+    storageBucket: "thoinote.firebasestorage.app",
+    messagingSenderId: "205870538236",
+    appId: "1:205870538236:web:cd33f4a7c07bcf36f2e679"
+  };
 
-const loginBox=document.getElementById("login");
-const appBox=document.getElementById("app");
-const userInput=document.getElementById("user");
-const passInput=document.getElementById("pass");
+const app = initializeApp(firebaseConfig);
+const db = getFirestore(app);
 
-const note=document.getElementById("note");
-const tag=document.getElementById("tag");
-const search=document.getElementById("search");
-const filter=document.getElementById("filter");
-const list=document.getElementById("list");
-
-function loginUser(){
-
-if(USERS[userInput.value]===passInput.value){
-
-session=userInput.value;
-
-loginBox.style.display="none";
-appBox.classList.remove("hidden");
-
-load();
-
-}else{
-alert("Sai username hoặc password");
-}
-
-}
-
-function enc(t){return btoa(t)}
-function dec(t){return atob(t)}
-
+let USER=null;
 let notes=[];
 
-function load(){
-notes=JSON.parse(localStorage.getItem("ult_"+session))||[];
-render();
-}
+window.login=()=>{
+USER=user.value;
+load();
+};
 
-function save(){
-localStorage.setItem("ult_"+session,JSON.stringify(notes));
-}
-
-function md(t){
-return t.replace(/\*\*(.*?)\*\*/g,"<b>$1</b>")
-.replace(/\*(.*?)\*/g,"<i>$1</i>")
-.replace(/\n/g,"<br>");
-}
-
-function add(){
-if(!note.value) return;
-
-notes.push({
-text:enc(note.value),
-tag:tag.value,
-time:new Date().toLocaleString()
+async function load(){
+notes=[];
+const q=await getDocs(collection(db,"notes_"+USER));
+q.forEach(d=>{
+notes.push({id:d.id,text:d.data().text});
 });
+render();
+}
 
+window.add=async()=>{
+if(!note.value) return;
+await addDoc(collection(db,"notes_"+USER),{
+text:note.value,
+time:Date.now()
+});
 note.value="";
-tag.value="";
-save();
-render();
-}
+load();
+};
 
-function del(i){
-notes.splice(i,1);
-save();
-render();
-}
+window.del=async(id)=>{
+await deleteDoc(doc(db,"notes_"+USER,id));
+load();
+};
 
-function edit(i){
-let t=prompt("Edit",dec(notes[i].text));
-if(t){
-notes[i].text=enc(t);
-save();
-render();
-}
-}
-
-function render(){
+window.render=()=>{
 list.innerHTML="";
 let s=search.value.toLowerCase();
-let f=filter.value.toLowerCase();
-
 notes.forEach((n,i)=>{
-let txt=dec(n.text);
-
-if(txt.toLowerCase().includes(s)&&n.tag.toLowerCase().includes(f)){
+if(n.text.toLowerCase().includes(s)){
 list.innerHTML+=`
-<li>
-<b>${i+1}. ${md(txt)}</b><br>
-#${n.tag}<br>
-<small>${n.time}</small><br>
-<button onclick="edit(${i})">EDIT</button>
-<button onclick="del(${i})">DEL</button>
+<li>${i+1}. ${n.text}
+<button onclick="del('${n.id}')">X</button>
 </li>`;
 }
 });
-}
-
-function exportJSON(){
-download(JSON.stringify(notes),"backup.json");
-}
-
-function importJSON(f){
-let r=new FileReader();
-r.onload=e=>{
-notes=JSON.parse(e.target.result);
-save();
-render();
-}
-r.readAsText(f.files[0]);
-}
-
-function download(d,n){
-let b=new Blob([d]);
-let a=document.createElement("a");
-a.href=URL.createObjectURL(b);
-a.download=n;
-a.click();
-}
+};
