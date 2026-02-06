@@ -17,8 +17,13 @@ updateDoc
 } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore.js";
 
 const firebaseConfig = {
-// GIỮ CONFIG CỦA BẠN
-};
+    apiKey: "AIzaSyDH8Hif2CouVBTh3QZz0rEaovY5B6YNP10",
+    authDomain: "thoinote.firebaseapp.com",
+    projectId: "thoinote",
+    storageBucket: "thoinote.firebasestorage.app",
+    messagingSenderId: "205870538236",
+    appId: "1:205870538236:web:cd33f4a7c07bcf36f2e679"
+  };
 
 const fb = initializeApp(firebaseConfig);
 const auth = getAuth(fb);
@@ -110,3 +115,4 @@ list.innerHTML+=`
 }
 });
 };
+
