@@ -1,3 +1,8 @@
+import {
+updateEmail,
+updatePassword
+} from "https://www.gstatic.com/firebasejs/10.7.1/firebase-auth.js";
+
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js";
 import {
 getAuth,
@@ -115,6 +120,23 @@ list.innerHTML+=`
 }
 });
 };
+
+window.changeEmail = async ()=>{
+let newEmail = prompt("New email:");
+if(!newEmail) return;
+
+await updateEmail(auth.currentUser,newEmail);
+alert("Email updated!");
+}
+
+window.changePassword = async ()=>{
+let newPass = prompt("New password (>=6 chars):");
+if(!newPass) return;
+
+await updatePassword(auth.currentUser,newPass);
+alert("Password updated!");
+}
+
 
 
 
