@@ -1,26 +1,28 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8">
-<title>TECH NOTES FIREBASE</title>
+<meta charset="utf-8">
+<title>Tech Notes Firebase PRO</title>
 <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<h2>🔥 TECH NOTES CLOUD</h2>
+<div id="auth">
+<input id="email" placeholder="email">
+<input id="password" type="password" placeholder="password">
+<button onclick="login()">LOGIN / REGISTER</button>
+</div>
 
-<input id="user" placeholder="username">
-<button onclick="login()">LOGIN</button>
+<div id="app" style="display:none">
 
 <textarea id="note"></textarea>
 <button onclick="add()">ADD</button>
 
-<input id="search" placeholder="search" onkeyup="render()">
-
 <ul id="list"></ul>
 
-<script type="module" src="app.js"></script>
+</div>
 
+<script type="module" src="app.js"></script>
 </body>
 </html>
