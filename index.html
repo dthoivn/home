@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>TECH NOTES ULTIMATE</title>
+<link rel="stylesheet" href="style.css">
+<link rel="manifest" href="manifest.json">
+</head>
+
+<body>
+
+<div id="login">
+<h2>🔐 LOGIN</h2>
+<input id="user" placeholder="user">
+<input id="pass" type="password" placeholder="password">
+<button onclick="login()">LOGIN</button>
+</div>
+
+<div id="app" class="hidden">
+
+<h1>⚙ TECH NOTES ULTIMATE</h1>
+
+<textarea id="note"></textarea>
+<input id="tag">
+<button onclick="add()">ADD</button>
+
+<input id="search" onkeyup="render()" placeholder="search">
+<input id="filter" onkeyup="render()" placeholder="filter tag">
+
+<button onclick="exportJSON()">EXPORT</button>
+<input type="file" onchange="importJSON(this)">
+
+<ul id="list"></ul>
+
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
