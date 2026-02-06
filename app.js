@@ -51,6 +51,23 @@ const exportBtn = document.getElementById("exportBtn");
 let USER = null;
 let notes = [];
 
+/* ================= PAGE LOCK ================= */
+
+const PAGE_PASSWORD = "123456";   // đổi mật khẩu tại đây
+
+if(!sessionStorage.getItem("page_unlocked")){
+
+let p = prompt("🔐 Enter system password:");
+
+if(p !== PAGE_PASSWORD){
+alert("Access denied");
+location.reload();
+}else{
+sessionStorage.setItem("page_unlocked","ok");
+}
+
+}
+
 /* ================= LOGIN ================= */
 
 window.login = async () => {
@@ -198,3 +215,4 @@ a.download = "tech_notes.txt";
 a.click();
 
 });
+
