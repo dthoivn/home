@@ -2,22 +2,28 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>Tech Notes Firebase PRO</title>
+<title>Retro Tech Notes</title>
 <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<div id="auth">
+<div id="auth" class="panel">
+<h2>🔐 LOGIN</h2>
 <input id="email" placeholder="email">
 <input id="password" type="password" placeholder="password">
 <button onclick="login()">LOGIN / REGISTER</button>
 </div>
 
-<div id="app" style="display:none">
+<div id="app" class="panel" style="display:none">
 
-<textarea id="note"></textarea>
+<h1>💾 RETRO TECH NOTES</h1>
+
+<textarea id="note" placeholder="Write note..."></textarea>
+
 <button onclick="add()">ADD</button>
+
+<input id="search" placeholder="Search..." onkeyup="render()">
 
 <ul id="list"></ul>
 
