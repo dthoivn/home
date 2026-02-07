@@ -18,6 +18,30 @@ doc,
 updateDoc
 } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore.js";
 
+/* ================= HÀM PHỤ ================= */
+
+function fileIcon(name=""){
+name = name.toLowerCase();
+if(name.endsWith(".pdf")) return "📕";
+if(name.endsWith(".doc")||name.endsWith(".docx")) return "📘";
+if(name.endsWith(".xls")||name.endsWith(".xlsx")) return "📗";
+if(name.endsWith(".png")||name.endsWith(".jpg")||name.endsWith(".jpeg")||name.endsWith(".gif")) return "🖼";
+return "📎";
+}
+
+function isImage(name=""){
+name=name.toLowerCase();
+return name.endsWith(".png")||name.endsWith(".jpg")||name.endsWith(".jpeg")||name.endsWith(".gif");
+}
+
+function sizeBadge(bytes){
+if(!bytes) return "";
+if(bytes<1024) return bytes+" B";
+if(bytes<1024*1024) return (bytes/1024).toFixed(1)+" KB";
+return (bytes/1024/1024).toFixed(1)+" MB";
+}
+
+
 /* ================= FIREBASE CONFIG ================= */
 
 const firebaseConfig = {
@@ -148,16 +172,30 @@ let s = search.value.toLowerCase();
 
 notes.forEach((n,i)=>{
 if(n.text.toLowerCase().includes(s)){
+
+const icon = fileIcon(n.text);
+const isImg = n.fileUrl && isImage(n.text);
+
 list.innerHTML+=`
 <li>
 
-<b>${i+1}. ${
-n.fileUrl
+<b>
+<span style="color:${randomColor()}">${i+1}.</span>
+${icon}
+${n.fileUrl
 ? `<a href="${n.fileUrl}" target="_blank">${n.text}</a>`
-: n.text
-}</b><br>
+: n.text}
+</b>
 
-<small>${n.time}</small><br>
+${isImg ? `<br><img src="${n.fileUrl}" style="max-width:200px;border:1px solid #00ffcc;margin-top:6px">`:""}
+
+<br><small>${n.time||""}</small>
+
+${n.fileSize?`<span style="margin-left:10px;color:#0f0">[${sizeBadge(n.fileSize)}]</span>`:""}
+
+<br>
+
+${n.fileUrl?`<button onclick="window.open('${n.fileUrl}')">DOWNLOAD</button>`:""}
 
 <button onclick="edit('${n.id}','${n.text.replace(/'/g,"")}')">EDIT</button>
 <button onclick="del('${n.id}')">DEL</button>
@@ -268,10 +306,12 @@ const rawUrl = `https://raw.githubusercontent.com/${GITHUB_USER}/${GITHUB_REPO}/
 
 // lưu link vào Firestore
 await addDoc(collection(db,"notes",USER,"items"),{
-text:"📎 "+file.name,
+text:file.name,
 fileUrl:rawUrl,
+fileSize:file.size,
 time:new Date().toLocaleString()
 });
+
 
 alert("Upload thành công!");
 ghFile.value="";
@@ -281,6 +321,7 @@ load();
 reader.readAsBinaryString(file);
 
 });
+
 
 
 
