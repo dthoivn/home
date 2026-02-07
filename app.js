@@ -151,7 +151,6 @@ if(n.text.toLowerCase().includes(s)){
 list.innerHTML+=`
 <li>
 
-<!-- FILE LINK HERE -->
 <b>${i+1}. ${
 n.fileUrl
 ? `<a href="${n.fileUrl}" target="_blank">${n.text}</a>`
@@ -163,19 +162,11 @@ n.fileUrl
 <button onclick="edit('${n.id}','${n.text.replace(/'/g,"")}')">EDIT</button>
 <button onclick="del('${n.id}')">DEL</button>
 
-<b>${i+1}. ${
-n.fileUrl
-? `<a href="${n.fileUrl}" target="_blank">${n.text}</a>`
-: n.text
-}</b><br>
-
-<small>${n.time}</small><br>
-<button onclick="edit('${n.id}','${n.text.replace(/'/g,"")}')">EDIT</button>
-<button onclick="del('${n.id}')">DEL</button>
 </li>`;
 }
 });
 };
+
 
 /* ================= CHANGE EMAIL ================= */
 
@@ -290,6 +281,7 @@ load();
 reader.readAsBinaryString(file);
 
 });
+
 
 
 
