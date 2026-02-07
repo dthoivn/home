@@ -150,7 +150,13 @@ notes.forEach((n,i)=>{
 if(n.text.toLowerCase().includes(s)){
 list.innerHTML+=`
 <li>
-<b>${i+1}. ${n.text}</b><br>
+
+<b>${i+1}. ${
+n.fileUrl
+? `<a href="${n.fileUrl}" target="_blank">${n.text}</a>`
+: n.text
+}</b><br>
+
 <small>${n.time}</small><br>
 <button onclick="edit('${n.id}','${n.text.replace(/'/g,"")}')">EDIT</button>
 <button onclick="del('${n.id}')">DEL</button>
@@ -213,6 +219,63 @@ let a = document.createElement("a");
 a.href = URL.createObjectURL(blob);
 a.download = "tech_notes.txt";
 a.click();
+
+});
+
+/* ================= GITHUB UPLOAD ================= */
+
+// ĐIỀN CỦA BẠN
+const GITHUB_USER = "dthoivn";
+const GITHUB_REPO = "home";
+const GITHUB_TOKEN = "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";   // token của bạn
+
+const ghFile = document.getElementById("ghFile");
+const ghUploadBtn = document.getElementById("ghUploadBtn");
+
+ghUploadBtn.addEventListener("click", async ()=>{
+
+if(!ghFile.files[0]){
+alert("Chọn file trước");
+return;
+}
+
+const file = ghFile.files[0];
+const reader = new FileReader();
+
+reader.onload = async e =>{
+
+const base64 = btoa(e.target.result);
+const filename = Date.now()+"_"+file.name;
+
+const url = `https://api.github.com/repos/${GITHUB_USER}/${GITHUB_REPO}/contents/uploads/${filename}`;
+
+await fetch(url,{
+method:"PUT",
+headers:{
+"Authorization":"token "+GITHUB_TOKEN,
+"Content-Type":"application/json"
+},
+body:JSON.stringify({
+message:"upload file",
+content:base64
+})
+});
+
+const rawUrl = `https://raw.githubusercontent.com/${GITHUB_USER}/${GITHUB_REPO}/main/uploads/${filename}`;
+
+// lưu link vào Firestore
+await addDoc(collection(db,"notes",USER,"items"),{
+text:"📎 "+file.name,
+fileUrl:rawUrl,
+time:new Date().toLocaleString()
+});
+
+alert("Upload thành công!");
+ghFile.value="";
+load();
+};
+
+reader.readAsBinaryString(file);
 
 });
 
