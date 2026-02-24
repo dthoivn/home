@@ -282,9 +282,20 @@ ghFile.value="";
 load();
 };
 
-reader.readAsBinaryString(file);
+// reader.readAsBinaryString(file);
+reader.readAsArrayBuffer(file);
+
+reader.onload = async e => {
+  const bytes = new Uint8Array(e.target.result);
+  let binary = "";
+  bytes.forEach(b => binary += String.fromCharCode(b));
+  const base64 = btoa(binary);
+
+  ...
+}
 
 });
+
 
 
 
