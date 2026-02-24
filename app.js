@@ -57,7 +57,7 @@ let notes = [];
 
 /* ================= PAGE LOCK ================= */
 
-const PAGE_PASSWORD = "123456";   // đổi mật khẩu tại đây
+const PAGE_PASSWORD = "1981";   // đổi mật khẩu tại đây
 
 if(!sessionStorage.getItem("page_unlocked")){
 
@@ -285,6 +285,7 @@ load();
 reader.readAsBinaryString(file);
 
 });
+
 
 
 
