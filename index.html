@@ -26,12 +26,17 @@
 
 <!---->
 <script type="module">
+
 import { createClient } from "https://cdn.jsdelivr.net/npm/@supabase/supabase-js/+esm"
 
 const supabaseUrl = "https://khjtyijveoihnkvjfxac.supabase.co"
 const supabaseKey = "sb_publishable_-BDrhLBnh_5zkdx1yhvlGA_KNt9hK_l"
 
 const supabase = createClient(supabaseUrl, supabaseKey)
+
+const fileInput = document.getElementById("file")
+const upload = document.getElementById("upload")
+const result = document.getElementById("result")
 
 upload.onclick = async () => {
 
@@ -47,10 +52,10 @@ upload.onclick = async () => {
   const { error } = await supabase
     .storage
     .from("uploads")
-    .upload(name, file)
+    .upload(name,file)
 
   if(error){
-    alert("❌ Upload thất bại: " + error.message)
+    alert("❌ Upload lỗi: "+error.message)
     return
   }
 
@@ -64,7 +69,10 @@ upload.onclick = async () => {
   result.innerHTML = `
     📎 <a href="${data.publicUrl}" target="_blank">${file.name}</a>
   `
+
+  fileInput.value=""
 }
+
 </script>
 <!---->
   
@@ -89,6 +97,7 @@ upload.onclick = async () => {
 <script type="module" src="app.js"></script>
 </body>
 </html>
+
 
 
 
