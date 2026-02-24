@@ -19,6 +19,58 @@
 
 <input type="file" id="ghFile">
 <button id="ghUploadBtn">UPLOAD FILE</button>
+
+<input type="file" id="file">
+<button id="upload">Upload</button>
+<div id="result"></div>
+
+<!---->
+<script type="module">
+
+import { createClient } from "https://cdn.jsdelivr.net/npm/@supabase/supabase-js/+esm"
+
+// 🔴 DÁN CỦA BẠN VÀO ĐÂY
+const supabaseUrl = "khjtyijveoihnkvjfxac"
+const supabaseKey = "sb_publishable_-BDrhLBnh_5zkdx1yhvlGA_KNt9hK_l"
+
+const supabase = createClient(supabaseUrl, supabaseKey)
+
+upload.onclick = async () => {
+
+  const file = document.getElementById("file").files[0]
+
+  if(!file){
+    alert("Chọn file trước")
+    return
+  }
+
+  const fileName = Date.now()+"_"+file.name
+
+  const { error } = await supabase
+    .storage
+    .from("uploads")
+    .upload(fileName, file)
+
+  if(error){
+    alert("Lỗi upload: "+error.message)
+    return
+  }
+
+  const { data } = supabase
+    .storage
+    .from("uploads")
+    .getPublicUrl(fileName)
+
+  result.innerHTML = `
+    ✅ Upload thành công<br>
+    <a href="${data.publicUrl}" target="_blank">
+      ${data.publicUrl}
+    </a>
+  `
+}
+
+</script>
+<!---->
   
 <button onclick="changeEmail()">CHANGE EMAIL</button>
   
@@ -41,6 +93,7 @@
 <script type="module" src="app.js"></script>
 </body>
 </html>
+
 
 
 
