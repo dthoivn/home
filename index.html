@@ -26,49 +26,45 @@
 
 <!---->
 <script type="module">
-
 import { createClient } from "https://cdn.jsdelivr.net/npm/@supabase/supabase-js/+esm"
 
-// 🔴 DÁN CỦA BẠN VÀO ĐÂY
-const supabaseUrl = "khjtyijveoihnkvjfxac"
+const supabaseUrl = "https://khjtyijveoihnkvjfxac.supabase.co"
 const supabaseKey = "sb_publishable_-BDrhLBnh_5zkdx1yhvlGA_KNt9hK_l"
 
 const supabase = createClient(supabaseUrl, supabaseKey)
 
 upload.onclick = async () => {
 
-  const file = document.getElementById("file").files[0]
+  const file = fileInput.files[0]
 
   if(!file){
-    alert("Chọn file trước")
+    alert("⚠️ Vui lòng chọn file!")
     return
   }
 
-  const fileName = Date.now()+"_"+file.name
+  const name = Date.now()+"_"+file.name
 
   const { error } = await supabase
     .storage
     .from("uploads")
-    .upload(fileName, file)
+    .upload(name, file)
 
   if(error){
-    alert("Lỗi upload: "+error.message)
+    alert("❌ Upload thất bại: " + error.message)
     return
   }
 
   const { data } = supabase
     .storage
     .from("uploads")
-    .getPublicUrl(fileName)
+    .getPublicUrl(name)
+
+  alert("✅ Upload thành công!")
 
   result.innerHTML = `
-    ✅ Upload thành công<br>
-    <a href="${data.publicUrl}" target="_blank">
-      ${data.publicUrl}
-    </a>
+    📎 <a href="${data.publicUrl}" target="_blank">${file.name}</a>
   `
 }
-
 </script>
 <!---->
   
@@ -93,6 +89,7 @@ upload.onclick = async () => {
 <script type="module" src="app.js"></script>
 </body>
 </html>
+
 
 
 
