@@ -1,0 +1,1053 @@
+RETRO TECH NOTES
+====================
+
+1. https://lmsutceduvn-my.sharepoint.com/personal/anhdv_utc_edu_vn/_layouts/15/onedrive.aspx?id=%2Fpesonal%2Fanhdv%5Futc%5Fedu%5Fvn%2FDocuments%2FWindows%5FAIO%5FFree%2Fwin8&ga=1
+Windows 8.1 Link, Mật khẩu: anhdvshop.com
+   Time: 11/03/2026, 16:10:51
+
+2. Học C#: https://drive.google.com/drive/folders/1V_0t0tFH-9IoKBBP-Czk0bgYdJ-gpNbX
+   Time: 06:15:04 7/2/2026
+
+3. 2026 này, solo founder chỉ cần pc/mac + vibe coding là đủ.
+
+Startup Founders Pack mà Ben đang dùng:
+
+Claude = coding. ($20/mo)
+
+Supabase/Convex = backend. (Free)
+
+Vercel = deploying. (Free)
+
+Sepay = Tự Động Thanh toán
+
+GitHub = version control. (Free)
+
+Resend = emails. (Free)
+
+Clerk = auth. (Free)
+
+Cloudflare = DNS. (Free)
+
+PostHog = analytics. (Free)
+
+Sentry = error tracking. (Free)
+
+Upstash = Redis. (Free)
+
+Pinecone = vector DB. (Free)
+
+Tổng chi phí hàng tháng để run startup: ~$20.
+
+Chưa bao giờ có thời điểm rẻ hơn để build sản phẩm thật và bán nó.
+
+Ý tưởng không còn chết vì thiếu tiền nữa.
+
+Chỉ chết vì thiếu hành động.
+
+Lock in. Build ngay hôm nay.
+
+   Time: 21:49:23 14/3/2026
+
+4. NetSupport School.web
+
+
+1
+0
+ROBLOX|roblox.|www.roblox.com|/|https
+YOUTUBE|youtube.|www.youtube.com||https
+POKI|poki.|poki.com|/|https
+FACEBOOK|facebook.|www.facebook.com||https
+FB2|fb.|fb.com||https
+TIKTOK|tiktok.|www.tiktok.com||https
+CHATGPT|chatgpt.|chatgpt.com||https
+GEMINI|gemini.|gemini.google.com|/|https
+
+PROXY1|proxy.|proxy|
+PROXY2|vpn.|vpn|
+PROXY3|hidemy|
+PROXY4|kproxy|
+PROXY5|proxysite|
+PROXY6|freevpn|
+PROXY7|1.1.1.1|
+PROXY8|psiphon|
+PROXY9|ultrasurf|
+
+GOOGLESEARCH|google.|www.google.com|/|https
+GOOGLESEARCH2|google.|www.google.com.vn|/|https
+
+1
+SCRATCH|scratch.|scratch.mit.edu|/|https
+TRANGNGUYEN|trangnguyen.|trangnguyen.edu.vn|/|https
+VIOEDU|vio.|vio.edu.vn|/|https
+LMS360|lms360.|lms360.vn|/|https
+DANHMAY1|rapidtyping.|rapidtyping.com|/|https
+DANHMAY2|thetypingcat.|thetypingcat.com|/|https
+HOCTRUCTUYEN|hoctructuyen.|hoctructuyen.hcm.edu.vn|/|https
+GITHUB|github.|github.com|/|https
+GITHUBIO|github.|github.io|/|https
+DOCS|google.|docs.google.com|/|https
+FORMS|google.|forms.google.com|/|https
+QUIZIZZ|wayground.|wayground.com||https
+IC3|iigvietnam.|ic3review.iigvietnam.edu.vn|/|https
+
+   Time: 2/25/2026, 1:57:06 PM
+
+5. Mô phỏng: https://www.falstad.com/circuit/e-fullrect.html
+   Time: 12:24:06 11/2/2026
+
+6. 📚 10 CẤU TRÚC DỮ LIỆU "THÂN QUEN" TRONG ĐỜI SỐNG HÀNG NGÀY – BẠN CÓ BIẾT? 
+
+Bạn nghĩ cấu trúc dữ liệu chỉ dành cho lập trình viên?
+Sai rồi! Ngay cả khi không code, bạn vẫn đang dùng chúng mỗi ngày đấy! 👇
+
+📋 1. LIST – Danh sách
+- Ví dụ: Twitter feeds – danh sách các tweet hiện ra theo thời gian.
+- Ứng dụng: Hiển thị bài viết, sản phẩm, bất cứ thứ gì có thứ tự.
+
+🔢 2. ARRAY – Mảng
+- Ví dụ: Ma trận điểm trong game, bảng tính Excel.
+- Ứng dụng: Lưu dữ liệu cùng kiểu, truy cập nhanh qua chỉ số.
+
+🥞 3. STACK – Ngăn xếp
+- Ví dụ: Undo/Redo trong Word – hành động sau cùng được hoàn tác trước.
+- Ứng dụng: Lịch sử trình duyệt, đệ quy.
+
+🚶 4. QUEUE – Hàng đợi
+- Ví dụ: Hàng đợi máy in, người xếp hàng mua vé.
+- Ứng dụng: Xử lý tác vụ theo thứ tự FIFO.
+
+⛰️ 5. HEAP – Đống
+- Ví dụ: Lập lịch tác vụ ưu tiên – việc quan trọng làm trước.
+- Ứng dụng: Hàng đợi ưu tiên, thuật toán Dijkstra.
+
+🌳 6. TREE – Cây
+- Ví dụ: Cây thư mục trong máy tính, HTML DOM.
+- Ứng dụng: Biểu diễn phân cấp, tìm kiếm nhanh.
+
+🔤 7. SUFFIX TREE – Cây hậu tố
+- Ví dụ: Tìm kiếm từ trong văn bản (Ctrl+F).
+- Ứng dụng: Xử lý chuỗi, tìm kiếm mẫu.
+
+🕸️ 8. GRAPH – Đồ thị
+- Ví dụ: Mạng xã hội (kết bạn), định tuyến đường đi (Google Maps).
+- Ứng dụng: Biểu diễn quan hệ, tìm đường đi ngắn nhất.
+
+📍 9. R-TREE – Cây R
+- Ví dụ: Tìm nhà hàng gần nhất (nearest neighbour).
+- Ứng dụng: Hệ thống GIS, cơ sở dữ liệu không gian.
+
+🗄️ 10. HASH TABLE – Bảng băm
+- Ví dụ: Bộ nhớ cache, từ điển – tra cứu cực nhanh.
+- Ứng dụng: Lưu trữ key-value, kiểm tra trùng lặp.
+
+🎯 TỔNG KẾT
+Cấu trúc dữ liệu không hề khô khan – chúng hiện diện trong từng ứng dụng bạn dùng mỗi ngày. Hiểu chúng giúp bạn code hiệu quả hơn, giải quyết vấn đề thông minh hơn.
+
+⭐ P/S: Bạn muốn nắm vững cấu trúc dữ liệu và giải thuật để tự tin phỏng vấn và làm dự án thực tế?
+👉 Kết nối với Thầy ngay – Mentor 1:1, dạy kèm cá nhân hóa, giúp bạn hiểu sâu và làm thực chiến!
+
+Nguồn Ảnh: Bytebytego
+
+#IT #LapTrinhVien #DataStructures #Algorithms #CodingInterview #DSA #Programming #LearnCoding
+   Time: 19:50:55 27/2/2026
+
+7. Vua ngô 5, 7 ngai vàng. Chết xuống âm phủ chẳng mang đc gì. Mấy thằng ăn nhậu li bì. Chết xg âm phủ khác gì vua ngô.
+   Time: 11:38:21 8/2/2026
+
+8. Lập trình C++, Qt: http://laptrinhtanbinh.com/course/1/Lap-trinh-voi-ngon-ngu-C
+   Time: 07:06:04 7/2/2026
+
+9. Hacking: https://drive.google.com/drive/u/0/folders/1if6MCeBCj8sxWwJIKhtgwU0GBuBW8uLx?s=09
+   Time: 14:30:09 12/2/2026
+
+10. powercfg -duplicatescheme e9a42b02-d5df-448d-aa00-03f14749eb61
+powercfg -restoredefaultschemes
+   Time: 16:19:35 6/3/2026
+
+11. https://www.microsoft.com/en-us/evalcenter/download-windows-11-iot-enterprise-ltsc-eval?fbclid=IwVERDUAQWgYVleHRuA2FlbQIxMQBzcnRjBmFwcF9pZAo2NjI4NTY4Mzc5AAEePH8YEMQX4704pfwqo4zfmNAEqeLNKZB55XzjiXPegw7KPKicHLfm3qbZaLY_aem_XC1WBXeK3f-IaoLKKrSp6w
+
+   Time: 22:33:18 5/3/2026
+
+12. Mạng doanh nghiệp: https://khanhvc.blogspot.com/2020/02/mo-hinh-mang-cho-cac-doanh-nghiep-vua.html
+   Time: 07:01:42 7/2/2026
+
+13. Ip route: PRIME_CORE#show running-config | section ip route
+ip route 0.0.0.0 0.0.0.0 192.168.93.2
+ip route 10.1.1.0 255.255.255.0 192.168.92.37
+ip route 172.16.0.0 255.255.0.0 172.21.176.240
+ip route 172.21.128.0 255.255.224.0 172.21.176.240
+ip route 172.21.168.0 255.255.255.0 172.21.176.240
+ip route 172.22.0.0 255.255.0.0 172.21.176.240
+ip route 192.168.5.0 255.255.255.0 192.168.92.37
+ip route 192.168.6.0 255.255.255.0 192.168.92.37
+ip route 192.168.40.0 255.255.255.0 192.168.93.2 22
+ip route 192.168.40.0 255.255.255.0 192.168.92.37 33
+ip route 192.168.60.0 255.255.255.0 192.168.93.2 36
+ip route 192.168.60.0 255.255.255.0 192.168.92.37 39
+ip route 192.168.60.6 255.255.255.255 192.168.92.37
+ip route 192.168.81.0 255.255.255.0 192.168.93.252
+ip route 192.168.82.0 255.255.255.0 192.168.93.2 32
+ip route 192.168.82.0 255.255.255.0 192.168.92.37 33
+ip route 192.168.85.0 255.255.255.0 192.168.93.252
+   Time: 06:59:19 7/2/2026
+
+14. Trò chơi hệ mặt trời: https://wordwall.net/resource/32005346/h%e1%bb%87-m%e1%ba%b7t-tr%e1%bb%9di
+   Time: 06:47:22 7/2/2026
+
+15. Tăng tốc Explorer: reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Serialize" /v StartupDelayInMSec /t REG_DWORD /d 0 /f
+   Time: 06:16:52 7/2/2026
+
+16. 📎 new 1.txt
+   Time: 2/24/2026, 8:34:29 PM
+
+17. Copy lên NAS: robocopy C:\DuLieu \\NAS\Share /E /COPYALL /R:3 /W:5
+   Time: 07:02:17 7/2/2026
+
+18. Link tải soft server Vietnam: https://mirror.meowsmp.net/
+   Time: 2/10/2026, 2:50:25 PM
+
+19. Win.Aio.46in1.Nov.2025.iso
+https://pixeldrain.com/api/file/ixSFt2pq?download
+   Time: 2/25/2026, 2:00:21 PM
+
+20. Thực hành SQL: https://sqliteonline.com/
+   Time: 07:08:39 7/2/2026
+
+21. diskpart
+sel dis 0
+clean
+con gpt
+exit
+
+   Time: 15:53:01 11/3/2026
+
+22. 📎 TECH_PRO_REPAIR.bat
+   Time: 2/24/2026, 7:50:54 PM
+
+23. Links học: https://www.freebasic.net/wiki/DocToc
+https://twinbasic.com/preview.html#top
+https://github.com/twinbasic/twinbasic/issues
+https://learn.microsoft.com/en-us/sysinternals/downloads/
+
+   Time: 06:50:44 7/2/2026
+
+24. https://tinyurl.com/dthoivn
+https://tinyurl.com/lop3ttnh
+https://tinyurl.com/lop4ttnh
+https://tinyurl.com/lop5ttnh
+   Time: 3/17/2026, 1:36:40 PM
+
+25. Cnttshop networking: https://cnttshop.vn/blogs/cisco/huong-dan-cau-hinh-router-cisco-ra-internet
+https://cnttshop.vn/blogs/cisco/huong-dan-cau-hinh-access-list-tren-cisco-voi-lab-cu-the
+
+   Time: 07:24:44 7/2/2026
+
+26. Công cụ videos: https://123apps.com/
+   Time: 12:34:41 11/2/2026
+
+27. https://khjtyijveoihnkvjfxac.supabase.co/storage/v1/object/public/uploads/1772090916931_NetSupport%20School%20v14.00.0006.part1.rar
+   Time: 2/26/2026, 2:28:56 PM
+
+28. linux-lite-7.8-64bit.iso
+https://mirror.meowsmp.net/linuxlite/isos/7.8/linux-lite-7.8-64bit.iso
+   Time: 2/25/2026, 2:02:33 PM
+
+29. https://sites.google.com/view/trachbinh?pli=1
+Thay Bình THCS Ng Văn Quỳ
+
+   Time: 00:07:49 17/3/2026
+
+30. Recovery mode PC:
+reagentc /boottore
+shutdown /r /t 0
+   Time: 15:12:12 12/2/2026
+
+31. Mcsa: https://viblo.asia/p/tong-quan-ve-active-directory-tren-windows-server-4dbZNxJk5YM
+https://vuimoingay.vn/mcsa/
+https://maychuviet.vn/raid-server-la-gi-cac-raid-pho-bien-thuong-dung-cho-server/#:~:text=RAID%2010%20l%C3%A0%20s%E1%BB%B1%20k%E1%BA%BFt,%E1%BB%95%20(Mirroring)%20RAID%201.
+https://quantrimang.com/cong-nghe/bai-thuc-hanh-de-tro-thanh-quan-tri-mang-171789
+https://cnttshop.vn/blogs
+https://quantrimang.com/cong-nghe/huong-dan-cau-hinh-router-cisco-55528
+
+   Time: 07:27:05 7/2/2026
+
+32. w32tm /unregister
+w32tm /register
+net start w32time
+w32tm /resync
+w32tm /config /manualpeerlist:"time.windows.com" /syncfromflags:manual /update
+w32tm /resync
+pause
+   Time: 00:00:33 7/2/2026
+
+33. Lập trình C++: https://drive.google.com/drive/mobile/folders/1P3Ve7EqxzYzeL2nY5yu40JeRE_wXxuQO?brid=eZRf_6hNh3QcWpv9ufylig
+   Time: 06:25:10 7/2/2026
+
+34. https://hoanchien.blogspot.com/search/label/Drivers%20tool
+https://vn-z.vn/threads/ghost-windows-10-home-pro-enter-22h2-os-build-19045-6156-no-full-software_v4-4-update-12-7-2025.64438/
+https://vn-z.vn/threads/ghost-win-10-11-enterprie-ltsc-2019-2021-2024_v3-0-x64-chuyen-games.106023/
+https://vn-z.vn/threads/snappy-driver-installer-v3-0.105765/
+Ghost
+   Time: 3/12/2026, 5:21:41 PM
+
+35. https://drive.google.com/file/d/1waep2hl-TACE-tdAprFhBSh84aqsyybq/view?fbclid=IwdGRjcAQbZYBleHRuA2FlbQIxMQBzcnRjBmFwcF9pZAo2NjI4NTY4Mzc5AAEeB-Af6B-BUUn8LJfI_1bqgberz2KrwXt6MUwlVEbo0GPWIjPbqfTQP7sdEf0_aem_qTReYt3v0CBOtxZ4IoejbA
+Windows 11 26H1
+
+   Time: 15:35:48 9/3/2026
+
+36. Học python: https://vinasupport.com/lap-trinh/python/
+   Time: 07:15:47 7/2/2026
+
+37. Vlan trunk: https://blog.cloud365.vn/windows/linux/other/huong-dan-cau-hinh-vlan-trunking/
+   Time: 07:31:43 7/2/2026
+
+38. Khóa Wallpaper: reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\ActiveDesktop" /v NoChangingWallPaper /t REG_DWORD /d 1 /f
+
+   Time: 2/10/2026, 1:40:01 PM
+
+39. Win11 prolite: https://phuocit.com/windows-11-prolite-superlite-v25h2-build-26200-6901-by-ankh-tech/
+   Time: 06:24:00 7/2/2026
+
+40. Học CCNA: https://sites.google.com/view/thcs-binhkhanh
+https://hainguyenit.edubit.vn/category/lab-ccna-ccnp-co-giai
+https://hainguyenit.edubit.vn/category/python-script-huu-ich
+   Time: 06:56:51 7/2/2026
+
+41. 11 Pro 26H1: https://buzzheavier.com/ouxkxbrh4ysh
+https://akirabox.com/Xkrzoog65zBO/file
+   Time: 12:08:34 12/2/2026
+
+42. Tài nguyên: https://github.com/dipakkr/A-to-Z-Resources-for-Students?fbclid=IwZnRzaANXEdtleHRuA2FlbQIxMQABHiCKXBx_YBs98ZbhJI63Doh0qILJl6qcGCguxkceILaGRxKIhmeTS1Jygg8Z_aem_70dsLciXhkT1KrnpsGqrWQ
+   Time: 06:35:05 7/2/2026
+
+43. "Trời có bốn mùa: Xuân, Hạ, Thu, Đông.
+Đất có bốn phương: Đông, Tây, Nam, Bắc.
+Người có bốn đức: Cần, Kiệm, Liêm, Chính.
+Thiếu một mùa, thì không thành trời.
+Thiếu một phương, thì không thành đất.
+Thiếu một đức, thì không thành người"
+
+                                                  (chủ tịch Hồ Chí Minh)
+   Time: 19:40:54 16/3/2026
+
+44. Đây là những câu thơ vui nghe rồi bỏ qua. 
+   Có con chớ gả con gần 
+    Con qua xúc gạo nhiều lần má la. 
+     Có con nên gả con gần 
+     Có tô canh cần nó cũng mang cho. 
+      Má ơi đừng gả con xa 
+      Chim kêu vượn hú biết nhà má đâu?
+   Time: 17:48:44 26/2/2026
+
+45. Win AIO: https://pixeldrain.com/u/ixSFt2pq?fbclid=IwVERFWAOZviRleHRuA2FlbQIxMQBzcnRjBmFwcF9pZAo2NjI4NTY4Mzc5AAEeiCPvlaNHK4MItyEdAtfkSww4TNlhMXV292Vg8tG9zOw25m9DLElu4K_Buf8_aem_plZ7tc4LnoPMU0lvha9xXg
+   Time: 00:40:18 7/2/2026
+
+46. CCNA: https://hainguyenit.edubit.vn/blog/videocau-hinh-fortigate-tu-dau
+https://hainguyenit.edubit.vn/ccna-cap-toc
+https://hainguyenit.edubit.vn/blog/cai-dat-moi-truong-lam-lab-ccna
+https://hainguyenit.edubit.vn/blog/download-window7-lab-eve
+https://hainguyenit.edubit.vn/blog/download-window7-lab-eve
+https://hainguyenit.edubit.vn/blog/download-may-ao-eve-ng-ccna-lab
+https://itforvn.com/tu-hoc-ccna/
+https://vnexperts.vn/giai-phap.html
+   Time: 07:22:08 7/2/2026
+
+47. SuperGodMode.{ED7BA470-8E54-465E-825C-99712043E01C}
+   Time: 3/15/2026, 9:21:43 AM
+
+48. 1. net user ten_user mat_khau /add
+➡️ Tạo một tài khoản người dùng mới với tên user và mật khẩu chỉ định.
+
+2. net localgroup administrators ten_user /add
+➡️ Thêm user vào nhóm Administrators để có quyền quản trị máy tính.
+
+3. net user
+➡️ Hiển thị danh sách tất cả user đang có trong máy.
+
+4. net user ten_user /delete
+➡️ Xóa tài khoản người dùng khỏi hệ thống.
+
+5. net user ten_user mat_khau /add /logonpasswordchg:yes
+➡️ Tạo user mới và yêu cầu đổi mật khẩu khi đăng nhập lần đầu.
+
+6. net user ten_user *
+➡️ Đổi mật khẩu của user, hệ thống sẽ yêu cầu nhập mật khẩu mới.
+
+7. net user ten_user /active:yes
+➡️ Kích hoạt tài khoản user (cho phép đăng nhập).
+
+8. net user ten_user /active:no
+➡️ Vô hiệu hóa tài khoản user (user vẫn tồn tại nhưng không đăng nhập được).
+
+9. net localgroup users
+➡️ Hiển thị danh sách các user thuộc nhóm Users.
+
+10. net localgroup administrators
+➡️ Hiển thị danh sách user thuộc nhóm Administrators.
+
+11. net localgroup users ten_user /add
+➡️ Thêm user vào nhóm Users (nhóm người dùng thông thường).
+
+12. net localgroup users ten_user /delete
+➡️ Xóa user khỏi nhóm Users.
+   Time: 15:28:57 5/3/2026
+
+49. SWDVD9_WinSrvSTDCORE2025_24H2.16_64Bit_English
+https://trashbytes.net/dl/Dajv3HaacwkSWpztaCVHmUZ8FCy7n6Z_SX0NrIMO0ldh5wNJPvU02p1THpWTyQNa0kSnBWB92KM3jDykoNRpGUdJM2RJYZ0s5GUKBp5Ae7_cHaMh8sYoubC9HFZGqgEVfD1BZWmpzI21RpLMkLL-K_vcKQ1KUWsv6AsUULaRx8PYHMNBC188hZjWawTwoTjRtBryf-qYpg?v=1770255740-tOGfexWSQpvsiu0ZLHRDYctgT2sjUaY6QhJ5YByCiJM%3D
+   Time: 2/25/2026, 2:01:07 PM
+
+50. https://khjtyijveoihnkvjfxac.supabase.co/storage/v1/object/public/uploads/1772001183624_NetSupport%20School.web
+   Time: 2/25/2026, 1:33:14 PM
+
+51. Học mạng: https://khanhvc.blogspot.com/2020/02/mo-hinh-mang-cho-cac-doanh-nghiep-vua.html
+https://123docz.net/document/610913-cai-dat-va-cau-hinh-firewall-fortigate.htm
+https://hainguyenit.edubit.vn/blog/tool-luu-tru-va-tra-cuu-lenh-ccna-ccnp
+https://hainguyenit.edubit.vn/blog/juniper-qfx-cau-hinh-vlan-don-gian-nhat
+   Time: 07:17:20 7/2/2026
+
+52. C++: Link tài liệu đây nhé: https://drive.google.com/file/d/1gUAyUp0L-Lvoxs-x-Mm1POhWs6c9TMB5/view?usp=sharing
+   Time: 06:22:37 7/2/2026
+
+53. Khóa Mouse Cursor: reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\System" /v NoDispAppearancePage /t REG_DWORD /d 1 /f
+
+   Time: 2/10/2026, 1:40:21 PM
+
+54. https://onboardcloud.dl.sourceforge.net/project/clonezilla/clonezilla_live_stable/3.3.0-33/clonezilla-live-3.3.0-33-amd64.iso?viasf=1
+clonezilla-live-3.3.0-33-amd64.iso
+   Time: 2/25/2026, 2:03:28 PM
+
+55. 1
+0
+ROBLOX|roblox.|www.roblox.com|/|https
+YOUTUBE|youtube.|www.youtube.com||https
+POKI|poki.|poki.com|/|https
+FACEBOOK|facebook.|www.facebook.com||https
+FB2|fb.|fb.com||https
+TIKTOK|tiktok.|www.tiktok.com||https
+CHATGPT|chatgpt.|chatgpt.com||https
+GEMINI|gemini.|gemini.google.com|/|https
+
+PROXY1|proxy.|proxy|
+PROXY2|vpn.|vpn|
+PROXY3|hidemy|
+PROXY4|kproxy|
+PROXY5|proxysite|
+PROXY6|freevpn|
+PROXY7|1.1.1.1|
+PROXY8|psiphon|
+PROXY9|ultrasurf|
+
+GOOGLESEARCH|google.|www.google.com|/|https
+GOOGLESEARCH2|google.|www.google.com.vn|/|https
+
+1
+SCRATCH|scratch.|scratch.mit.edu|/|https
+TRANGNGUYEN|trangnguyen.|trangnguyen.edu.vn|/|https
+VIOEDU|vio.|vio.edu.vn|/|https
+LMS360|lms360.|lms360.vn|/|https
+DANHMAY1|rapidtyping.|rapidtyping.com|/|https
+DANHMAY2|thetypingcat.|thetypingcat.com|/|https
+HOCTRUCTUYEN|hoctructuyen.|hoctructuyen.hcm.edu.vn|/|https
+GITHUB|github.|github.com|/|https
+GITHUBIO|github.|github.io|/|https
+DOCS|google.|docs.google.com|/|https
+FORMS|google.|forms.google.com|/|https
+QUIZIZZ|wayground.|wayground.com||https
+IC3|iigvietnam.|ic3review.iigvietnam.edu.vn|/|https
+
+   Time: 2/9/2026, 2:40:57 PM
+
+56. Crack Windows & Office:
+irm https://get.activated.win | iex
+   Time: 00:16:54 7/2/2026
+
+57. KHOA_BACKGROUND_CURSOR.reg: Windows Registry Editor Version 5.00
+
+; ===== KHÓA ĐỔI BACKGROUND =====
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\ActiveDesktop]
+"NoChangingWallPaper"=dword:00000001
+
+; ===== KHÓA THEME + PERSONALIZATION =====
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\System]
+"NoDispAppearancePage"=dword:00000001
+
+; ===== KHÓA MOUSE / CURSOR =====
+[HKEY_CURRENT_USER\Control Panel\Mouse]
+"Scheme Source"=dword:00000000
+
+   Time: 2/10/2026, 2:21:07 PM
+
+58. https://khjtyijveoihnkvjfxac.supabase.co/storage/v1/object/public/uploads/1772001149840_NetSupport%20School.app
+   Time: 2/25/2026, 1:32:48 PM
+
+59. https://www.hacksplaining.com/lessons/sql-injection/hack-complete
+   Time: 02:12:22 11/2/2026
+
+60. Học vmware: https://drive.google.com/drive/folders/1RnU0OLWh0T8pIMQWVux5rViBn0EKRCFg
+   Time: 07:10:24 7/2/2026
+
+61. Office AIO: Link: https://drive.google.com/drive/folders/1NpNHt1xMceDpH-QmrYrhBBK_ls23dRvE
+   Time: 00:41:15 7/2/2026
+
+62. Học MOS: https://tinhocsaoviet.com/giao-trinh/giao-trinh-coreldraw-trung-tam-tin-hoc-sao-viet/
+https://blogdaytinhoc.com/tai-lieu-giao-trinh-luyen-thi-mos-2016-cap-nhat-moi-nhat-98
+https://drive.google.com/drive/folders/1rEiazxufFLWeRkH81BxRXMZhiEbPs-I2?usp=sharing
+   Time: 06:28:16 7/2/2026
+
+63. 📎 new 1.txt
+   Time: 2/24/2026, 7:51:52 PM
+
+64. 1
+0
+|C:\Windows\explorer.exe|0|
+|C:\Windows\System32\conhost.exe|0|
+|C:\Windows\System32\osk.exe|0|
+|C:\Windows\System32\notepad.exe|0|
+|C:\Windows\System32\calc.exe|0|
+|C:\Windows\System32\cmd.exe|0|
+
+
+|C:\Program Files\Google\Chrome\Application\chrome.exe|0|
+|C:\Program Files\CocCoc\Browser\Application\browser.exe|0|
+|C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe|0|
+
+|C:\Program Files\Microsoft Office\root\Office15\WINWORD.EXE|0|
+|C:\Program Files\Microsoft Office\root\Office15\EXCEL.EXE|0|
+|C:\Program Files\Microsoft Office\root\Office15\POWERPNT.EXE|0|
+|C:\Program Files (x86)\Microsoft Office\root\Office15\WINWORD.EXE|0|
+|C:\Program Files (x86)\Microsoft Office\root\Office15\EXCEL.EXE|0|
+|C:\Program Files (x86)\Microsoft Office\root\Office15\POWERPNT.EXE|0|
+
+|C:\Program Files\Microsoft Office\Office15\WINWORD.EXE|0|
+|C:\Program Files\Microsoft Office\Office15\EXCEL.EXE|0|
+|C:\Program Files\Microsoft Office\Office15\POWERPNT.EXE|0|
+|C:\Program Files (x86)\Microsoft Office\Office15\WINWORD.EXE|0|
+|C:\Program Files (x86)\Microsoft Office\Office15\EXCEL.EXE|0|
+|C:\Program Files (x86)\Microsoft Office\Office15\POWERPNT.EXE|0|
+
+|C:\Program Files\Microsoft Office\root\Office16\WINWORD.EXE|0|
+|C:\Program Files\Microsoft Office\root\Office16\EXCEL.EXE|0|
+|C:\Program Files\Microsoft Office\root\Office16\POWERPNT.EXE|0|
+|C:\Program Files (x86)\Microsoft Office\root\Office16\WINWORD.EXE|0|
+|C:\Program Files (x86)\Microsoft Office\root\Office16\EXCEL.EXE|0|
+|C:\Program Files (x86)\Microsoft Office\root\Office16\POWERPNT.EXE|0|
+
+|C:\Program Files\Microsoft Office\Office16\WINWORD.EXE|0|
+|C:\Program Files\Microsoft Office\Office16\EXCEL.EXE|0|
+|C:\Program Files\Microsoft Office\Office16\POWERPNT.EXE|0|
+|C:\Program Files (x86)\Microsoft Office\Office16\WINWORD.EXE|0|
+|C:\Program Files (x86)\Microsoft Office\Office16\EXCEL.EXE|0|
+|C:\Program Files (x86)\Microsoft Office\Office16\POWERPNT.EXE|0|
+
+|C:\Program Files\Scratch 3\Scratch 3.exe|0|
+|C:\Program Files (x86)\Scratch 3\Scratch 3.exe|0|
+
+|C:\Users\Public\Desktop\UniKeyNT.exe|0|
+|C:\Users\Public\Desktop\UniKey.exe|0|
+|C:\Program Files\UniKey\UniKeyNT.exe|0|
+|C:\Program Files (x86)\UniKey\UniKeyNT.exe|0|
+|C:\UniKeyNT.exe|0|
+|D:\UniKeyNT.exe|0|
+
+
+   Time: 2/10/2026, 2:11:35 PM
+
+65. Tội lỗi tội lỗi , đừng có ăn thịt chó , vì trời mưa gió ko có lại thèm
+   Time: 07:29:45 8/2/2026
+
+66. Phục hồi OS: DISM /Online /Cleanup-Image /RestoreHealth
+   Time: 06:18:30 7/2/2026
+
+67. Tối ưu hoá Windows: 
+irm christitus.com/win | iex
+
+
+   Time: 03:57:56 13/2/2026
+
+68. Iso windows: https://drive.google.com/drive/folders/1HSNB7fv9OoxvHwqwMPk5Z-u55LPgpK92?usp=drive_link
+   Time: 00:22:10 7/2/2026
+
+69. NetSupport School.app
+
+
+1
+0
+|C:\Windows\explorer.exe|0|
+|C:\Windows\System32\conhost.exe|0|
+|C:\Windows\System32\osk.exe|0|
+|C:\Windows\System32\notepad.exe|0|
+|C:\Windows\System32\calc.exe|0|
+|C:\Windows\System32\cmd.exe|0|
+
+
+|C:\Program Files\Google\Chrome\Application\chrome.exe|0|
+|C:\Program Files\CocCoc\Browser\Application\browser.exe|0|
+|C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe|0|
+
+|C:\Program Files\Microsoft Office\root\Office15\WINWORD.EXE|0|
+|C:\Program Files\Microsoft Office\root\Office15\EXCEL.EXE|0|
+|C:\Program Files\Microsoft Office\root\Office15\POWERPNT.EXE|0|
+|C:\Program Files (x86)\Microsoft Office\root\Office15\WINWORD.EXE|0|
+|C:\Program Files (x86)\Microsoft Office\root\Office15\EXCEL.EXE|0|
+|C:\Program Files (x86)\Microsoft Office\root\Office15\POWERPNT.EXE|0|
+
+|C:\Program Files\Microsoft Office\Office15\WINWORD.EXE|0|
+|C:\Program Files\Microsoft Office\Office15\EXCEL.EXE|0|
+|C:\Program Files\Microsoft Office\Office15\POWERPNT.EXE|0|
+|C:\Program Files (x86)\Microsoft Office\Office15\WINWORD.EXE|0|
+|C:\Program Files (x86)\Microsoft Office\Office15\EXCEL.EXE|0|
+|C:\Program Files (x86)\Microsoft Office\Office15\POWERPNT.EXE|0|
+
+|C:\Program Files\Microsoft Office\root\Office16\WINWORD.EXE|0|
+|C:\Program Files\Microsoft Office\root\Office16\EXCEL.EXE|0|
+|C:\Program Files\Microsoft Office\root\Office16\POWERPNT.EXE|0|
+|C:\Program Files (x86)\Microsoft Office\root\Office16\WINWORD.EXE|0|
+|C:\Program Files (x86)\Microsoft Office\root\Office16\EXCEL.EXE|0|
+|C:\Program Files (x86)\Microsoft Office\root\Office16\POWERPNT.EXE|0|
+
+|C:\Program Files\Microsoft Office\Office16\WINWORD.EXE|0|
+|C:\Program Files\Microsoft Office\Office16\EXCEL.EXE|0|
+|C:\Program Files\Microsoft Office\Office16\POWERPNT.EXE|0|
+|C:\Program Files (x86)\Microsoft Office\Office16\WINWORD.EXE|0|
+|C:\Program Files (x86)\Microsoft Office\Office16\EXCEL.EXE|0|
+|C:\Program Files (x86)\Microsoft Office\Office16\POWERPNT.EXE|0|
+
+|C:\Program Files\Scratch 3\Scratch 3.exe|0|
+|C:\Program Files (x86)\Scratch 3\Scratch 3.exe|0|
+
+|C:\Users\Public\Desktop\UniKeyNT.exe|0|
+|C:\Users\Public\Desktop\UniKey.exe|0|
+|C:\Program Files\UniKey\UniKeyNT.exe|0|
+|C:\Program Files (x86)\UniKey\UniKeyNT.exe|0|
+|C:\UniKeyNT.exe|0|
+|D:\UniKeyNT.exe|0|
+
+
+   Time: 2/25/2026, 1:57:39 PM
+
+70. Bypass acc ms:
+At screen add keyboard:
+Ctrl shift j
+WinJS.Application.restart("ms-cxh://LOCALONLY")
+
+   Time: 09:00:37 13/2/2026
+
+71. 📎 IMG_2201.jpeg
+   Time: 23:06:12 10/2/2026
+
+72. File máy ảo: http://ftp.anisa.co.ir/OVA/ (file ova hdd ổ cứng máy ảo)
+   Time: 07:11:14 7/2/2026
+
+73. Fedora-KDE-Mobile-Live-43-1.6.x86_64.iso
+
+https://hkg.mirror.rackspace.com/fedora/releases/43/Spins/x86_64/iso/Fedora-KDE-Mobile-Live-43-1.6.x86_64.iso
+   Time: 2/25/2026, 2:03:04 PM
+
+74. @echo off
+title LTSC RAM ULTRA
+
+echo Dang giam RAM background...
+
+:: Disable telemetry
+sc stop DiagTrack
+sc config DiagTrack start= disabled
+
+:: Disable superfetch
+sc stop SysMain
+sc config SysMain start= disabled
+
+:: Disable Windows Search
+sc stop WSearch
+sc config WSearch start= disabled
+
+:: Disable error reporting
+sc stop WerSvc
+sc config WerSvc start= disabled
+
+:: Disable NDU
+reg add HKLM\SYSTEM\CurrentControlSet\Services\Ndu /v Start /t REG_DWORD /d 4 /f
+
+:: Disable hibernation
+powercfg -h off
+
+:: Reduce UI delay
+reg add "HKCU\Control Panel\Desktop" /v MenuShowDelay /t REG_SZ /d 0 /f
+
+:: Clean temp
+del /s /f /q %temp%\*
+del /s /f /q C:\Windows\Temp\*
+
+echo.
+echo RAM optimization complete
+pause
+   Time: 3/17/2026, 1:19:35 PM
+
+75. Lệnh powershell: # Liệt kê tất cả ứng dụng cài đặt
+Get-AppxPackage -AllUsers
+
+# Xem chi tiết hệ thống
+Get-ComputerInfo
+
+# Xóa file cứng đầu (bỏ qua rác)
+Remove-Item C:\Path\to\File -Force
+
+# Khởi tạo Scheduled Task
+Register-ScheduledTask -TaskName "Test" -Action (New-ScheduledTaskAction -Execute "notepad.exe") -Trigger (New-ScheduledTaskTrigger -AtLogon)
+   Time: 06:17:46 7/2/2026
+
+76. https://khjtyijveoihnkvjfxac.supabase.co/storage/v1/object/public/uploads/1772154302289_template.html
+   Time: 2/27/2026, 8:05:11 AM
+
+77. Notebooklm: https://docs.google.com/document/d/1yJBuMmocKipTH47_vVhF2jcU-hkdeHFun9MAXH-X5vU/mobilebasic?fbclid=IwVERDUAP1idZleHRuA2FlbQIxMQBzcnRjBmFwcF9pZAo2NjI4NTY4Mzc5AAEe4no74w08I_W4-KcX4iABdCeD_Le-O3K5YUb6p5piQUKve7dneMXFqDcuiAs_aem_jYZd6zwDvbz2u-NPur3Blg
+   Time: 22:24:42 8/2/2026
+
+78. Script hack: https://www.facebook.com/share/v/1Cn3sb3pnd/?mibextid=wwXIfr
+   Time: 06:26:57 7/2/2026
+
+79. Trang dạy học: Wordwall.net; blooket.com
+   Time: 00:39:19 7/2/2026
+
+80. Xem info ram: wmic memorychip get capacity, manufacturer, partnumber, speed (xem info ram)
+   Time: 07:12:04 7/2/2026
+
+81. Đồ của vua: Cứ cái gì của Vua đều phải gọi là Long.
+Ghế Vua gọi là Long ngai.
+Giường Vua gọi là Long sàng.
+Áo Vua gọi là Long bào.
+Nón Vua gọi là Long mão.
+Mặt Vua gọi là Long nhan.
+Mắt Vua gọi là Long nhãn.
+Mình Vua gọi là Long thể.
+Xe Vua gọi là Long xa.
+..................
+* Vua đi nhảy đầm gọi là Long mắc (lắc mông).
+* Vua đi nhậu về trễ bị khoá cửa nhốt ngoài đường thì gọi là Long kẻo (leo cổng).
+   Time: 07:33:01 7/2/2026
+
+82. Tạo thư mục hàng loạt: for %i in (1,2,3,4,5,6,7,8) do mkdir 3.%i
+   Time: 00:35:56 7/2/2026
+
+83. Học hack: https://www.hacksplaining.com/lessons/sql-injection/hack-complete
+   Time: 12:24:35 11/2/2026
+
+84. Tiny: https://archive.org/details/tiny11_25H2
+   Time: 00:42:23 7/2/2026
+
+85. 📎 set_time_server.txt
+   Time: 2/9/2026, 2:42:09 PM
+
+86. Access list: PRIME_CORE#show access-lists
+Standard IP access list 1
+    10 permit 192.168.3.120
+    20 permit 192.168.60.121
+    30 permit 192.168.60.123
+    40 permit 192.168.97.0, wildcard bits 0.0.0.255
+    50 deny   any
+Standard IP access list 2
+    10 permit 192.168.92.37
+    20 permit 192.168.110.0, wildcard bits 0.0.0.255 (657047 matches)
+    30 deny   192.168.0.0, wildcard bits 0.0.255.255 (447 matches)
+    40 permit any
+Extended IP access list 100
+    10 permit ip host 192.168.60.123 any
+    20 permit ip any host 192.168.60.123
+    30 permit ip 192.168.97.0 0.0.0.255 192.168.97.0 0.0.0.255 (13 matches)
+    40 permit ip host 192.168.60.124 any
+    50 permit ip any host 192.168.60.124
+    60 permit ip host 192.168.60.125 any
+    70 permit ip any host 192.168.60.125
+    80 permit ip host 192.168.90.12 any
+    90 permit ip any host 192.168.90.12
+Extended IP access list IP-Adm-V4-Int-ACL-global
+    10 permit tcp any any eq www
+    20 permit tcp any any eq 443
+Extended IP access list implicit_deny
+    10 deny ip any any
+Extended IP access list implicit_permit
+    10 permit ip any any
+Extended IP access list meraki-fqdn-dns
+Extended IP access list preauth_v4
+    10 permit udp any any eq domain
+    20 permit tcp any any eq domain
+    30 permit udp any eq bootps any
+    40 permit udp any any eq bootpc
+    50 permit udp any eq bootpc any
+    60 deny ip any any
+IPv6 access list implicit_deny_v6
+    deny ipv6 any any sequence 10
+IPv6 access list implicit_permit_v6
+    permit ipv6 any any sequence 10
+IPv6 access list preauth_v6
+    permit udp any any eq domain sequence 10
+    permit tcp any any eq domain sequence 20
+    permit icmp any any nd-ns sequence 30
+    permit icmp any any nd-na sequence 40
+    permit icmp any any router-solicitation sequence 50
+    permit icmp any any router-advertisement sequence 60
+    permit icmp any any redirect sequence 70
+    permit udp any eq 547 any eq 546 sequence 80
+    permit udp any eq 546 any eq 547 sequence 90
+    deny ipv6 any any sequence 100
+   Time: 06:58:09 7/2/2026
+
+87. bootrec /fixmbr
+bootrec /fixboot
+bootrec /scanos
+bootrec /rebuildbcd
+diskpart
+list vol
+Tìm phân vùng EFI (FAT32 ~100MB)
+Ví dụ là Volume 0:
+sel vol 0
+assign letter=S:
+exit
+bcdboot C:\Windows /s S: /f UEFI
+
+   Time: 06:56:07 12/2/2026
+
+88. Keygen: Keygenninja.com
+   Time: 00:27:08 7/2/2026
+
+89. Shortcut: Tính năng
+Cách mở / lệnh
+Ghi chú
+God Mode
+Tạo thư mục: New Folder.GodMode.{ED7BA470-8E54-465E-825C-99712043E01C}
+Thể hiện tất cả setting trong 1 thư mục
+Resource Monitor
+resmon.exe
+Quan sát CPU / Memory / Disk / Network chi tiết
+Reliability Monitor
+perfmon /rel
+Xem lịch sử lỗi, crash, blue screen
+Windows Secret Menu
+Win + X
+Truy cập nhanh PowerShell, Event Viewer…
+Hidden Clipboard History
+Win + V
+Clipboard đa năng, ít người dùng
+Problem Steps Recorder
+psr.exe
+Ghi lại thao tác lỗi để debug
+Hidden WiFi passwords
+netsh wlan show profile name="WiFiName" key=clear
+Hiển thị mật khẩu lưu trên Windows
+   Time: 06:16:13 7/2/2026
+
+90. https://khjtyijveoihnkvjfxac.supabase.co/storage/v1/object/public/uploads/1772090943707_NetSupport%20School%20v14.00.0006.part2.rar
+   Time: 2/26/2026, 2:29:14 PM
+
+91. Mcsa: https://sinhvientot.net/huong-dan-tao-users-ou-va-phan-quyen-quan-ly-ou-tren-windows-server-2016-2012-2008-2003/
+   Time: 07:30:05 7/2/2026
+
+92. Win8.1: https://21ak22.com/tai-ghost-win-8-1-pro-no-soft-v26-1-muot-nhe-2026.html
+   Time: 00:34:16 7/2/2026
+
+93. Nam quốc sơn hà nam đế cư. Trẻ mà ko nhậu già sẽ hư. Đúng ra còn trẻ ta nên nhậu. Để già có ng đến bái sư.
+   Time: 07:07:26 8/2/2026
+
+94. https://uupdump.net/
+   Time: 09:35:41 12/2/2026
+
+95. Tai lieu Cam
+Vô cctvapp.net trên ấy có tài liệu hướng dẫn đủ kiểu, nhưng họ thiên về dahua, imou là nhiều
+   Time: 11:21:57 26/2/2026
+
+96. Win lite: https://drive.google.com/drive/folders/1rcvwoKWQ-f9ZEpYyiDZO71gb9KoYdajk
+   Time: 00:23:31 7/2/2026
+
+97. Tạo user và group: net user <username> <password> /add – Tạo người dùng mới.
+
+net localgroup administrators <username> /add – Thêm user vào nhóm admin.
+   Time: 06:20:04 7/2/2026
+
+98. AI: https://enzostvs-deepsite.hf.space/
+   Time: 12:22:58 11/2/2026
+
+99. fix_rdp.reg
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Policies\System\CredSSP\Parameters]
+"AllowEncryptionOracle"=dword:00000002
+
+fix_rdp.bat
+@echo off
+reg add "HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\System\CredSSP\Parameters" /v AllowEncryptionOracle /t REG_DWORD /d 2 /f
+echo DONE
+pause
+
+
+   Time: 18:19:55 12/2/2026
+
+100. 📎 set_time_client.txt
+   Time: 2/9/2026, 2:42:15 PM
+
+101. Sách tin học: https://online.pubhtml5.com/zjgk/qmiw/?zarsrc=30&utm_source=zalo&utm_medium=zalo&utm_campaign=zalo
+https://online.pubhtml5.com/zjgk/cmvm/
+   Time: 06:29:24 7/2/2026
+
+102. Prompt IC3: 20 Prompt tổng quát cho giáo dục IC3 tiểu học
+Thiết kế một bài giảng dạy kỹ năng sử dụng chuột và bàn phím cho học sinh lớp 4.
+
+Tạo trò chơi học tập giúp học sinh phân biệt các bộ phận chính của máy tính (màn hình, CPU, chuột, bàn phím...).
+
+Soạn 5 câu hỏi trắc nghiệm về phần mềm Microsoft Word dành cho học sinh lớp 5.
+
+Tạo hoạt động nhóm để học sinh thực hành gõ 10 ngón đơn giản.
+
+Thiết kế bài tập yêu cầu học sinh soạn một đoạn văn ngắn trong Word với tiêu đề và định dạng cơ bản.
+
+Viết kịch bản dạy học về an toàn trực tuyến với hình thức kể chuyện hoặc hoạt cảnh.
+
+Soạn bài giảng PowerPoint về “Internet là gì?” dành cho học sinh lớp 5.
+
+Tạo bảng tổng hợp các phím tắt cơ bản để học sinh dễ nhớ và thực hành.
+
+Đề xuất một trò chơi tương tác giúp học sinh học về các biểu tượng phần mềm phổ biến.
+
+Tạo tình huống học sinh cần phân biệt thông tin thật và giả trên Internet.
+
+Soạn một bài học dạy học sinh cách lưu tệp và tạo thư mục.
+
+Thiết kế bài kiểm tra nhỏ về nhận diện phần mềm Word, Excel, PowerPoint qua biểu tượng và chức năng.
+
+Soạn bài học đơn giản giúp học sinh tạo một slide PowerPoint giới thiệu bản thân.
+
+Tạo 5 câu hỏi tình huống để học sinh thảo luận về hành vi đúng/sai khi dùng Internet.
+
+Viết hướng dẫn đơn giản về cách mở một phần mềm và thoát khỏi phần mềm.
+
+Đưa ra một dự án nhỏ: học sinh sử dụng PowerPoint để làm một trang giới thiệu sở thích.
+
+Thiết kế hoạt động “kéo – thả” để ghép biểu tượng phần mềm với tên và chức năng của nó.
+
+Soạn tài liệu giới thiệu các phần mềm vẽ đơn giản như Paint hoặc Tux Paint.
+
+Đề xuất các cách tích hợp kỹ năng CNTT vào môn Toán hoặc Tiếng Việt bậc tiểu học.
+
+Tạo một bảng checklist kỹ năng tin học cơ bản mà học sinh tiểu học cần nắm.
+   Time: 06:44:31 7/2/2026
+
+103. Ghost tib Win10:
+https://akirabox.com/l76mZDO47zan/file
+   Time: 00:20:39 7/2/2026
+
+104. Ds phần mềm soft: https://minhkhoa0611.github.io/Ti-n--ch-Ph-n-M-m/index.html
+   Time: 00:37:38 7/2/2026
+
+105. Sửa phần cứng: https://biosvip.com/?brid=LpvZtPckc5jA_0NoyrBC9A
+   Time: 06:14:18 7/2/2026
+
+106. Tải windows: https://uupdump.net/
+   Time: 09:36:02 12/2/2026
+
+107. Rust: https://www.educative.io/courses/rust-programming-language/the-basic-formatting?fbclid=IwVERDUANXH51leHRuA2FlbQIxMQABHgYUBiH6v7YM6_yLtpS-ftfSv-uyg36kwI6H3Fn762jj1zOxMJRhD7YXE6qI_aem_mvJlblxoKO2sC0xUafeVrg
+   Time: 06:34:26 7/2/2026
+
+108. IC3:
+https://thayphuic3.github.io/quit/
+https://wayground.com/admin/quiz/695c5ae1a951036520e898dd/on-tap-spark-lv1
+https://wayground.com/admin/quiz/695c5ae1a951036520e898dd
+
+   Time: 00:12:07 7/2/2026
+
+109. Xem info PC: Get-CimInstance Win32_ComputerSystem
+Get-CimInstance Win32_OperatingSystem
+Get-CimInstance Win32_Processor
+   Time: 06:19:30 7/2/2026
+
+110. Học AI: https://docs.google.com/document/d/16IkiQ9k93q5vMUrepoaXrsKbmmkLR1rb/edit?usp=drivesdk&ouid=111027425888024616524&rtpof=true&sd=true
+https://lms360.vn/play?p=bdbf0f7a-e3cb-4217-9d2e-8615ab016ba2&c=686b703e06c78e52f3b469e9&cs=d3896941-88bb-405e-acba-494d48b7fa49&m=0&pa=1&sch=0
+https://youtu.be/tvcRUg_ATxk?si=e-_B7fa-wzt3W3vm
+https://youtu.be/jezAiMGorjU?si=z2gcncxNrv0hn6Fo
+   Time: 06:40:04 7/2/2026
+
+111. OS in browser: https://bellard.org/jslinux/
+   Time: 06:43:41 7/2/2026
+
+112. Tài liệu tin học: https://sites.google.com/view/thcs-binhkhanh
+   Time: 06:54:46 7/2/2026
+
+113. Cài linux trên win: dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
+   Time: 06:59:57 7/2/2026
+
+114. Đặt tên máy và IP:
+@echo off
+title AUTO SET HOSTNAME + IP
+
+echo Dang tim card mang...
+
+REM Lay ten card mang dang Connected
+for /f "tokens=3,*" %%a in ('netsh interface show interface ^| findstr /R "Connected"') do (
+    set IFACE=%%b
+)
+
+echo Card mang: %IFACE%
+echo.
+
+set /p NUM=Nhap so may (01,02,03...): 
+
+set NAME=PC%NUM%
+set IP=192.168.1.1%NUM%
+
+echo ---------------------------
+echo Ten may: %NAME%
+echo IP     : %IP%
+echo Card   : %IFACE%
+echo ---------------------------
+
+pause
+
+echo Dang doi ten may...
+wmic computersystem where name="%computername%" call rename name="%NAME%"
+
+echo Dang dat IP...
+netsh interface ip set address name="%IFACE%" static %IP% 255.255.255.0 192.168.1.1
+netsh interface ip set dns name="%IFACE%" static 8.8.8.8
+
+echo XONG. May se restart sau 5 giay...
+shutdown /r /t 5
+
+   Time: 00:09:16 7/2/2026
+
+115. Khám phá kiến thức: https://explorer.globe.engineer/
+   Time: 12:48:58 11/2/2026
+
+116. Ospf: PRIME_CORE#show running-config | section ospf
+router ospf 1
+ network 10.101.76.0 0.0.3.255 area 0
+ network 192.168.90.0 0.0.0.255 area 0
+ network 192.168.91.0 0.0.0.255 area 0
+ network 192.168.92.0 0.0.0.255 area 0
+ network 192.168.93.0 0.0.0.255 area 0
+ network 192.168.94.0 0.0.0.255 area 0
+ network 192.168.95.0 0.0.0.255 area 0
+ network 192.168.96.0 0.0.0.255 area 0
+ network 192.168.97.0 0.0.0.255 area 0
+ network 192.168.98.0 0.0.0.255 area 0
+ network 192.168.99.0 0.0.0.255 area 0
+ network 192.168.100.0 0.0.1.255 area 0
+ network 192.168.102.0 0.0.0.255 area 0
+ network 192.168.103.0 0.0.0.255 area 0
+ network 192.168.104.0 0.0.0.255 area 0
+ network 192.168.105.0 0.0.0.255 area 0
+ network 192.168.106.0 0.0.0.255 area 0
+ network 192.168.107.0 0.0.0.255 area 0
+ network 192.168.108.0 0.0.0.255 area 0
+ network 192.168.109.0 0.0.0.255 area 0
+ network 192.168.110.0 0.0.0.255 area 0
+ network 192.168.111.0 0.0.0.255 area 0
+ network 192.168.112.0 0.0.0.255 area 0
+   Time: 06:58:49 7/2/2026
+
+117. w32tm /unregister
+w32tm /register
+net start w32time
+w32tm /resync
+w32tm /config /syncfromflags:domhier /update
+w32tm /resync
+pause
+   Time: 00:03:53 7/2/2026
+
+====================
+Exported: 3/18/2026, 7:47:08 AM
