@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tin Học Lớp 6 - Kết Nối Tri Thức Với Cuộc Sống</title>
+<style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f4f6f9;
+    line-height: 1.7;
+}
+
+header {
+    background: linear-gradient(90deg,#2563eb,#1e3a8a);
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+nav {
+    background: #1d4ed8;
+    padding: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    background: #3b82f6;
+    padding: 10px 14px;
+    border-radius: 8px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+.lesson {
+    background: white;
+    margin-bottom: 30px;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+h2 {
+    color: #1e3a8a;
+}
+
+h3 {
+    color: #2563eb;
+}
+
+.step {
+    background: #eef4ff;
+    border-left: 5px solid #2563eb;
+    padding: 12px;
+    margin: 12px 0;
+    border-radius: 6px;
+}
+
+.practice {
+    background: #ecfdf5;
+    border-left: 5px solid #10b981;
+    padding: 15px;
+    margin-top: 15px;
+    border-radius: 6px;
+}
+
+.quiz {
+    background: #fff7ed;
+    border-left: 5px solid #f97316;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 6px;
+}
+
+button {
+    background: #2563eb;
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background: #1e40af;
+}
+
+.result {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.code-box {
+    background: #111827;
+    color: #22c55e;
+    padding: 12px;
+    border-radius: 8px;
+    overflow-x: auto;
+    font-family: Consolas, monospace;
+}
+
+footer {
+    background: #1e3a8a;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+</style>
+</head>
+<body>
+
+<header>
+<h1>TIN HỌC LỚP 6</h1>
+<h2>Kết Nối Tri Thức Với Cuộc Sống</h2>
+<p>Năm học 2026 - 2027</p>
+</header>
+
+<nav>
+<a href="#b1">Bài 1</a>
+<a href="#b2">Bài 2</a>
+<a href="#b3">Bài 3</a>
+<a href="#b4">Bài 4</a>
+<a href="#b5">Bài 5</a>
+<a href="#b6">Bài 6</a>
+<a href="#b7">Bài 7</a>
+<a href="#b8">Bài 8</a>
+</nav>
+
+<div class="container">
+
+<section class="lesson" id="b1">
+<h2>Bài 1. Thông Tin Và Dữ Liệu</h2>
+
+<h3>Mục tiêu</h3>
+<ul>
+<li>Hiểu khái niệm thông tin và dữ liệu.</li>
+<li>Biết vai trò của thông tin trong cuộc sống.</li>
+<li>Phân biệt dữ liệu số, chữ, hình ảnh.</li>
+</ul>
+
+<div class="step">
+<strong>Bước 1: Khởi động</strong>
+<p>Giáo viên đặt câu hỏi:</p>
+<ul>
+<li>Thông tin là gì?</li>
+<li>Em nhận thông tin từ đâu?</li>
+</ul>
+</div>
+
+<div class="step">
+<strong>Bước 2: Giới thiệu kiến thức</strong>
+<ul>
+<li>Thông tin giúp con người hiểu thế giới.</li>
+<li>Dữ liệu là cách lưu trữ thông tin.</li>
+<li>Dữ liệu có thể là chữ, số, âm thanh hoặc hình ảnh.</li>
+</ul>
+</div>
+
+<div class="step">
+<strong>Bước 3: Hoạt động nhóm</strong>
+<p>Học sinh phân loại dữ liệu theo nhóm:</p>
+<ul>
+<li>Hình ảnh</li>
+<li>Âm thanh</li>
+<li>Văn bản</li>
+<li>Số liệu</li>
+</ul>
+</div>
+
+<div class="practice">
+<h3>Hoạt động thực hành</h3>
+<ul>
+<li>Liệt kê 5 loại thông tin quanh em.</li>
+<li>Phân loại dữ liệu trong điện thoại.</li>
+<li>Quan sát biểu tượng dữ liệu trên máy tính.</li>
+</ul>
+</div>
+
+<div class="quiz">
+<h3>Trắc nghiệm</h3>
+<p>Dữ liệu nào sau đây là dữ liệu hình ảnh?</p>
+<input type="radio" name="q1" value="a"> File MP3<br>
+<input type="radio" name="q1" value="b"> File JPG<br>
+<input type="radio" name="q1" value="c"> File TXT<br>
+<button onclick="checkQ1()">Kiểm tra</button>
+<div class="result" id="result1"></div>
+</div>
+</section>
+
+<section class="lesson" id="b2">
+<h2>Bài 2. Mạng Máy Tính Và Internet</h2>
+
+<div class="step">
+<strong>Bước 1: Giới thiệu mạng máy tính</strong>
+<ul>
+<li>Mạng giúp chia sẻ dữ liệu.</li>
+<li>Internet là mạng toàn cầu.</li>
+</ul>
+</div>
+
+<div class="step">
+<strong>Bước 2: Minh họa kết nối</strong>
+<p>Giáo viên trình chiếu sơ đồ mạng máy tính.</p>
+</div>
+
+<div class="step">
+<strong>Bước 3: Thảo luận</strong>
+<ul>
+<li>Lợi ích của Internet.</li>
+<li>Tác hại nếu dùng không đúng cách.</li>
+</ul>
+</div>
+
+<div class="practice">
+<h3>Hoạt động thực hành</h3>
+<ul>
+<li>Mở trình duyệt Chrome.</li>
+<li>Tìm kiếm thông tin học tập.</li>
+<li>Chia sẻ kết quả với nhóm.</li>
+</ul>
+</div>
+
+<div class="quiz">
+<h3>Trắc nghiệm</h3>
+<p>Internet giúp chúng ta làm gì?</p>
+<input type="radio" name="q2" value="a"> Tìm kiếm thông tin<br>
+<input type="radio" name="q2" value="b"> Làm hỏng máy tính<br>
+<input type="radio" name="q2" value="c"> Xóa dữ liệu tự động<br>
+<button onclick="checkQ2()">Kiểm tra</button>
+<div class="result" id="result2"></div>
+</div>
+</section>
+
+<section class="lesson" id="b3">
+<h2>Bài 3. An Toàn Thông Tin Trên Internet</h2>
+
+<div class="step">
+<strong>Bước 1: Tìm hiểu nguy cơ</strong>
+<ul>
+<li>Lộ mật khẩu.</li>
+<li>Virus máy tính.</li>
+<li>Lừa đảo trực tuyến.</li>
+</ul>
+</div>
+
+<div class="step">
+<strong>Bước 2: Hướng dẫn bảo mật</strong>
+<ul>
+<li>Không chia sẻ mật khẩu.</li>
+<li>Đặt mật khẩu mạnh.</li>
+<li>Không truy cập trang web lạ.</li>
+</ul>
+</div>
+
+<div class="practice">
+<h3>Hoạt động thực hành</h3>
+<ul>
+<li>Tạo mật khẩu an toàn.</li>
+<li>Nhận biết email giả mạo.</li>
+<li>Đóng vai xử lý tình huống.</li>
+</ul>
+</div>
+
+<div class="quiz">
+<h3>Trắc nghiệm</h3>
+<p>Mật khẩu nào an toàn hơn?</p>
+<input type="radio" name="q3" value="a"> 123456<br>
+<input type="radio" name="q3" value="b"> abcdef<br>
+<input type="radio" name="q3" value="c"> Hs6@2026<br>
+<button onclick="checkQ3()">Kiểm tra</button>
+<div class="result" id="result3"></div>
+</div>
+</section>
+
+<section class="lesson" id="b4">
+<h2>Bài 4. Soạn Thảo Văn Bản Với Word</h2>
+
+<div class="step">
+<strong>Bước 1:</strong> Mở Microsoft Word
+</div>
+
+<div class="step">
+<strong>Bước 2:</strong> Gõ văn bản
+<ul>
+<li>Nhập tiêu đề.</li>
+<li>Nhập đoạn văn.</li>
+</ul>
+</div>
+
+<div class="step">
+<strong>Bước 3:</strong> Định dạng văn bản
+<ul>
+<li>Đổi font chữ.</li>
+<li>Đổi màu chữ.</li>
+<li>Căn lề.</li>
+</ul>
+</div>
+
+<div class="practice">
+<h3>Hoạt động thực hành</h3>
+<ul>
+<li>Soạn bài giới thiệu bản thân.</li>
+<li>Chèn hình ảnh vào văn bản.</li>
+<li>Lưu file đúng thư mục.</li>
+</ul>
+</div>
+</section>
+
+<section class="lesson" id="b5">
+<h2>Bài 5. Trình Chiếu Với PowerPoint</h2>
+
+<div class="step">
+<strong>Bước 1:</strong> Mở PowerPoint
+</div>
+
+<div class="step">
+<strong>Bước 2:</strong> Tạo slide mới
+</div>
+
+<div class="step">
+<strong>Bước 3:</strong> Chèn hình ảnh và văn bản
+</div>
+
+<div class="step">
+<strong>Bước 4:</strong> Thêm hiệu ứng trình chiếu
+</div>
+
+<div class="practice">
+<h3>Hoạt động thực hành</h3>
+<ul>
+<li>Tạo bài trình chiếu 3 slide.</li>
+<li>Giới thiệu trường học.</li>
+<li>Trình bày trước lớp.</li>
+</ul>
+</div>
+</section>
+
+<section class="lesson" id="b6">
+<h2>Bài 6. Thuật Toán Và Lập Trình</h2>
+
+<div class="step">
+<strong>Bước 1: Giới thiệu thuật toán</strong>
+<p>Thuật toán là các bước để giải quyết vấn đề.</p>
+</div>
+
+<div class="step">
+<strong>Bước 2: Ví dụ thực tế</strong>
+<ul>
+<li>Pha mì.</li>
+<li>Đánh răng.</li>
+<li>Nấu cơm.</li>
+</ul>
+</div>
+
+<div class="step">
+<strong>Bước 3: Viết thuật toán đơn giản</strong>
+<div class="code-box">
+Bước 1: Bật máy tính<br>
+Bước 2: Mở Paint<br>
+Bước 3: Vẽ hình
+</div>
+</div>
+
+<div class="practice">
+<h3>Hoạt động thực hành</h3>
+<ul>
+<li>Viết thuật toán làm bài tập.</li>
+<li>Sắp xếp các bước đúng thứ tự.</li>
+<li>Thảo luận nhóm.</li>
+</ul>
+</div>
+</section>
+
+<section class="lesson" id="b7">
+<h2>Bài 7. Lập Trình Scratch Cơ Bản</h2>
+
+<div class="step">
+<strong>Bước 1:</strong> Mở Scratch
+</div>
+
+<div class="step">
+<strong>Bước 2:</strong> Chọn nhân vật
+</div>
+
+<div class="step">
+<strong>Bước 3:</strong> Kéo thả lệnh
+</div>
+
+<div class="step">
+<strong>Bước 4:</strong> Chạy chương trình
+</div>
+
+<div class="practice">
+<h3>Hoạt động thực hành</h3>
+<ul>
+<li>Làm nhân vật di chuyển.</li>
+<li>Thêm âm thanh.</li>
+<li>Tạo hoạt cảnh đơn giản.</li>
+</ul>
+</div>
+</section>
+
+<section class="lesson" id="b8">
+<h2>Bài 8. Dự Án Sáng Tạo Tin Học</h2>
+
+<div class="step">
+<strong>Bước 1:</strong> Chọn chủ đề dự án
+</div>
+
+<div class="step">
+<strong>Bước 2:</strong> Lập kế hoạch thực hiện
+</div>
+
+<div class="step">
+<strong>Bước 3:</strong> Thiết kế sản phẩm số
+</div>
+
+<div class="step">
+<strong>Bước 4:</strong> Báo cáo sản phẩm
+</div>
+
+<div class="practice">
+<h3>Hoạt động thực hành</h3>
+<ul>
+<li>Làm poster tuyên truyền.</li>
+<li>Tạo trò chơi Scratch nhỏ.</li>
+<li>Thuyết trình sản phẩm nhóm.</li>
+</ul>
+</div>
+</section>
+
+</div>
+
+<footer>
+<p>Tài liệu Tin Học 6 - Kết Nối Tri Thức Với Cuộc Sống - Năm học 2026 - 2027</p>
+</footer>
+
+<script>
+function checkQ1() {
+let a=document.querySelector('input[name="q1"]:checked');
+let r=document.getElementById('result1');
+if(!a){r.innerHTML='Hãy chọn đáp án!';return;}
+r.innerHTML=a.value==='b'?'✅ Chính xác!':'❌ Chưa đúng!';
+}
+
+function checkQ2() {
+let a=document.querySelector('input[name="q2"]:checked');
+let r=document.getElementById('result2');
+if(!a){r.innerHTML='Hãy chọn đáp án!';return;}
+r.innerHTML=a.value==='a'?'✅ Chính xác!':'❌ Chưa đúng!';
+}
+
+function checkQ3() {
+let a=document.querySelector('input[name="q3"]:checked');
+let r=document.getElementById('result3');
+if(!a){r.innerHTML='Hãy chọn đáp án!';return;}
+r.innerHTML=a.value==='c'?'✅ Chính xác!':'❌ Chưa đúng!';
+}
+</script>
+
+</body>
+</html>
